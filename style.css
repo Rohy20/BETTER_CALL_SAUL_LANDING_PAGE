@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  #cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #E5322B;
+  }
+
+  #cabecalho-img{
+    width: 180px;
+    margin-left: 50px;
+    border-style: dashed;
+    border-color: #f3df28;
+    background-color: #E5322B;
+  }
+
+  #cabecalho-menu{
+    display: flex;
+    gap: 30px;
+    background-color: #E5322B;
+  }
+
+  a{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400px;
+    color: #f3df28;
+    background-color: #E5322B;
+  }
+
+  #conteudo{
+    border-top: 5px solid #f3df28;
+    border-bottom: 10px solid #f3df28;
+  }
+
+  #sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #sobre-saul{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+
+  p{
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  #vídeo-comercial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #vídeo{
+    color: rgb(0, 0, 0);
+  }
+
+  #comercial{
+   width: 700px;
+   height:500px;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: white;
+  }
+  #price {
+    padding: 25px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  #price-wrapper {
+    display: grid;
+    grid-gap: 2rem;
+    align-items:center; 
+    justify-content: center; 
+    grid-template-columns: 350px 350px;
+    width: 100%;
+  }
+  .price-boxes {
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 2.5;
+    border: 1px solid black;
+    width: 350px;
+  }
+  .price-boxes h3 {
+    background: red;
+  }
+   #button {
+    background: yellow;
+    display: block;
+    width: 165px;
+    height: 75px;
+    font-style: normal;
+    margin: 1rem auto;
+    color: black;
+    border: 1px solid black
+  }
+
+  #footer-p{
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+
+  #mapa{
+    margin-left: 50px;
+    width: 750px;
+    height: 450px;
+  }
+
+
